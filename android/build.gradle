@@ -51,7 +51,7 @@ android {
 
 protobuf {
     protoc {
-        artifact = 'com.google.protobuf:protoc:3.14.0'
+        artifact = 'com.google.protobuf:protoc:3.19.4'
     }
     generateProtoTasks {
         all().each { task ->
@@ -66,7 +66,7 @@ protobuf {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-	implementation 'com.google.protobuf:protobuf-javalite:3.14.0'
+	implementation 'com.google.protobuf:protobuf-javalite:3.19.4'
     implementation 'com.google.android.gms:play-services-wallet:18.1.2'
 	implementation "androidx.multidex:multidex:2.0.1"
 }
